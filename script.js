@@ -76,7 +76,8 @@ todos.push(todo);
 localStorage.setItem("todos",JSON.stringify(todos));
 }
 
-// Function to get local todo
+
+// Function to get local todolist
 const getLocalTodos = () => {
     let todos;
     if (localStorage.getItem("todos") === null) {
